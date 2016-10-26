@@ -22,8 +22,11 @@ Height of multiplication table: 8
   8  16  24  32  40  48  56  64  72  80
 """
 
+width = int(input("Width of multiplication table: "))
+lnth = int(input("Length of multiplication table: "))
 
-print([x*1 for x in range(1,11)])
+print([x*1 for x in range(1,width + 1)])
+
 print([x*2 for x in range(1,11)])
 print([x*3 for x in range(1,11)])
 print([x*4 for x in range(1,11)])
