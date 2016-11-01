@@ -25,12 +25,12 @@ Height of multiplication table: 8
 width = int(input("Width of multiplication table: "))
 lnth = int(input("Length of multiplication table: "))
 
-print([x*1 for x in range(1,width + 1)])
-
-print([x*2 for x in range(1,11)])
-print([x*3 for x in range(1,11)])
-print([x*4 for x in range(1,11)])
-print([x*5 for x in range(1,11)])
-print([x*6 for x in range(1,11)])
-print([x*7 for x in range(1,11)])
-print([x*8 for x in range(1,11)])
+for i in [1, 2, 3, 4, 5, 6, 7, 8]:
+   for j in [width]:
+       width = 1
+       for h in [2]:
+           for k in [3]:
+              for l in [4]:
+                  for m in [5]:
+                      for n in [6]:
+                           print(i*j, i*h, i*k, i*l, i*m, i*n)
