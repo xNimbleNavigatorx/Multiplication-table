@@ -26,8 +26,9 @@ width = int(input("Width of multiplication table: "))
 lnth = int(input("Length of multiplication table: "))
 
 for i in [1, 2, 3, 4, 5, 6, 7, 8]:
-    while width <= 0:
-         for j in [width + 1]:
-            width += 1
-            for h in [2]:
+    while width >= 0:
+         for j in [1 - width]:
+            invw = (-1*width)
+            w += 0
+            print(i*j, i*j)
            
