@@ -23,13 +23,13 @@ Height of multiplication table: 8
 """
 
 width = int(input("Width of multiplication table: ")) - 1
-lnth = int(input("Length of multiplication table: "))
+lnth = int(input("Height of multiplication table: "))
 
 
 for i in range(1, lnth+1):
     mywidth = width
     while mywidth >= 0:
         mywidth -= 1
-        print("{0:>3}".format(i*(width-mywidth)), end = "")
+        print("{0:>3}".format(i*(width-mywidth)), end = " ")
     print()
     
