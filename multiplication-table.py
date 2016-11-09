@@ -1,7 +1,7 @@
 """
 multiplication-table.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: xNimbleNavigatorx
+Credit: Mr. Denny
 Assignment:
 
 Write and submit a Python program that prints a multiplication table. The user 
@@ -30,6 +30,6 @@ for i in range(1, lnth+1):
     mywidth = width
     while mywidth >= 0:
         mywidth -= 1
-        print("{0:>3}".format(i*(width-mywidth)), end = " ")
+        print("{0:>3}".format(i*(width-mywidth)), end = "")
     print()
     
